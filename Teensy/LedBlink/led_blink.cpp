@@ -1,4 +1,5 @@
 #include "class_led.hpp"
+#include "function_wait.hpp"
 #include "Arduino.h"
 
 Led led;
@@ -11,7 +12,7 @@ void setup()
 void loop()
 {
     led.turnOn();
-    delay(1000);
+    wait(1000);
     led.turnOff();
-    delay(1000);
+    wait(1000);
 }
