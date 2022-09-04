@@ -1,6 +1,5 @@
 #include "class_led.hpp"
 #include "class_wait.hpp"
-#include <iostream>
 #include "Arduino.h"
 
 // Prototype Declaration
