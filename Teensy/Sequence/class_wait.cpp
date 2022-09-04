@@ -1,4 +1,4 @@
-#include "function_wait.hpp"
+#include "class_wait.hpp"
 #include "Arduino.h"
 
 void Wait::wait(unsigned int milliseconds)
