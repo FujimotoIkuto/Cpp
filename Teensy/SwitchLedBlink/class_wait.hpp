@@ -5,7 +5,7 @@ class Wait
 {
     private:
         unsigned int _start, _end;
-        bool _is_first;
+        bool _is_first true;
     
     public:
         void wait(unsigned int milliseconds);
