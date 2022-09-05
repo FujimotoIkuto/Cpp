@@ -23,7 +23,6 @@ bool Wait::isWaiting(unsigned int milliseconds)
 
     if(_end-_start < milliseconds)
     {
-        _end = millis();
         return true;
     }
 
